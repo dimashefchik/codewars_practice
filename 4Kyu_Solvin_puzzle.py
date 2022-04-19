@@ -1,3 +1,11 @@
+# Solving the puzzle
+# You'll get an array of pieces as well as the size of the puzzle (width and height).
+# Two pieces can be assembled if they share the same pattern on the border where they are in contact (see example below).
+# Puzzle pieces being unique, you'll never encounter two different pieces that could be assembled with the same third one. So to say: borders are unique.
+# Once you found the proper arrangment for all the pieces, return the solved puzzle as a list of tuples (height * width)
+# of the id number of the piece at its correct position. 
+
+
 def puzzle_solver(pieces, width, height):
     g_line = {}
     inne = {}
