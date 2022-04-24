@@ -45,4 +45,5 @@ def solve(a):
         else:
             m.append(f'{count} carry operations')
     return '\n'.join(m)
+
   
