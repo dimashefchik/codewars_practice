@@ -5,7 +5,6 @@
 # Once you found the proper arrangment for all the pieces, return the solved puzzle as a list of tuples (height * width)
 # of the id number of the piece at its correct position. 
 
-
 def puzzle_solver(pieces, width, height):
     g_line = {}
     inne = {}
@@ -28,5 +27,4 @@ def puzzle_solver(pieces, width, height):
         for x in range(1, height):
             wynik[x][y] = inne[next][1]
             next = inne[next][0]
-
     return [tuple(x) for x in wynik]
