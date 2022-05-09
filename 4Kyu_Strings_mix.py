@@ -15,7 +15,6 @@
 # their length and when they have the same length sorted in ascending lexicographic order (letters and digits - more precisely sorted by codepoint); 
 # the different groups will be separated by '/'. See examples and "Example Tests".
 
-
 def mix(s1, s2):
     res1 = {i : s1.count(i) for i in set(s1) if i!=" " and i.islower()}
     res2 = {i : s2.count(i) for i in set(s2) if i!=" " and i.islower()}
