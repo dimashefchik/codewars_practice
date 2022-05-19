@@ -14,6 +14,7 @@
 # 048665088X   -->  true
 # X123456788   -->  false
 
+
 def valid_ISBN10(isbn): 
     result = []
     if 'X' in isbn[:-1]:
