@@ -5,6 +5,7 @@
 # "identifier"   =>  "identifier"
 # ""             =>  ""
 
+
 def solution(s):
     result = []
     for i in s:
@@ -14,3 +15,4 @@ def solution(s):
         else:
             result.append(i)
     return ''.join(result)
+
