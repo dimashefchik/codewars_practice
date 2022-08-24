@@ -17,4 +17,4 @@ def domain_name(url):
     return b
   
  url = "http://github.com/carbonfive/raygun"
- print(domain_name(url))
+#  print(domain_name(url))
